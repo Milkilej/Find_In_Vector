@@ -1,0 +1,2 @@
+add_executable(tests_for_legacy findInVectorTest.cpp)
+target_link_libraries(tests_for_legacy gtest gtest_main implementations)
